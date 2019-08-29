@@ -1,9 +1,10 @@
 body{
-    background-color:#FBFF8F
+    background-color:#FBFF8F;
 }
 
 li{
     display: inline;
+    font-size: 24px;
 }
 
 nav{
@@ -11,5 +12,27 @@ nav{
 }
 
 h1{
-    background-color: #6EA2CC
+    background-color: #6EA2CC;
+    font-size: 70px;
+}
+
+p{
+    font-size: 40px;
+    background-color:#FFA6A3;
+}
+
+h2{
+    font-size: 55px;
+    background-color:#FFA6A3;
+}
+
+img{
+    border:25px solid #FFA6A3;
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    background-color:#6EA2CC;
 }
