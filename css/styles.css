@@ -1,7 +1,15 @@
 body{
-    
+    background-color:#FBFF8F
 }
 
-ul{
+li{
     display: inline;
+}
+
+nav{
+    background-color:#B36F6D;
+}
+
+h1{
+    background-color: #6EA2CC
 }
