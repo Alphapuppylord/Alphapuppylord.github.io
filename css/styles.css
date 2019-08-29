@@ -36,3 +36,86 @@ footer{
     text-align: center;
     background-color:#6EA2CC;
 }
+
+/*This next part is all about pop up boxes for images*/
+
+
+a.hideDisplay{
+    position: relative;
+    z-index: 40;
+    color:#000000;
+    text-decoration: none;
+}
+
+a.hideDisplay:hover{
+    z-index: 30;
+}
+
+a.hideDisplay span.showDisplayOnHover{
+    display:none;
+}
+
+a.hideDisplay:hover span.showDisplayOnHover{
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    line-height: 25px;
+    top: 5px;
+    left: 20px;
+    width: auto;
+    padding: 10px;
+    border: 1px solid #FF7587;
+    background-color:#8ADAFF;
+    color: #000000;
+    text-align: left;
+}
+
+span.showBodyOfDisplayOnHover{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 18px;
+}
+
+b.hideDisplay{
+    position: relative;
+    z-index: 40;
+    color:#000000;
+    text-decoration: none;
+}
+
+b.hideDisplay:hover{
+    z-index: 30;
+}
+
+b.hideDisplay span.showDisplayOnHover{
+    display:none;
+}
+
+b.hideDisplay:hover span.showDisplayOnHover{
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    line-height: 25px;
+    top: 5px;
+    left: 20px;
+    width: auto;
+    padding: 10px;
+    border: 1px solid #FF7587;
+    background-color:#8ADAFF;
+    color: #000000;
+    text-align: left;
+}
+
+span.showBodyOfDisplayOnHover{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 18px;
+}
+
+
+
+/*******************************
+        MEDIA QUIERIES
+*******************************/
