@@ -250,6 +250,37 @@ e{
         MEDIA QUIERIES
 *******************************/
 
-@media screen (max-width: 1016){
-    
+@media screen and (max-width: 1750px) {
+    e{
+        display: none;
+     }
+
+}
+
+@media screen and (max-width: 1380px) {
+    d{
+        display: none;
+     }
+     
+}
+
+@media screen and (max-width: 1050px) {
+    c{
+        display: none;
+     }
+     
+}
+
+@media screen and (max-width: 720px) {
+    b{
+        display: none;
+     }
+     
+}
+
+@media screen and (max-width: 350px) {
+    a{
+        display: none;
+     }
+     
 }
