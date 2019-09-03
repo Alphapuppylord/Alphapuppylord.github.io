@@ -114,8 +114,142 @@ span.showBodyOfDisplayOnHover{
     line-height: 18px;
 }
 
+c.hideDisplay{
+    position: relative;
+    z-index: 40;
+    color:#000000;
+    text-decoration: none;
+}
 
+c.hideDisplay:hover{
+    z-index: 30;
+}
+
+c.hideDisplay span.showDisplayOnHover{
+    display:none;
+}
+
+c.hideDisplay:hover span.showDisplayOnHover{
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    line-height: 25px;
+    top: 5px;
+    left: 20px;
+    width: auto;
+    padding: 10px;
+    border: 1px solid #FF7587;
+    background-color:#8ADAFF;
+    color: #000000;
+    text-align: left;
+}
+
+span.showBodyOfDisplayOnHover{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 18px;
+}
+
+d.hideDisplay{
+    position: relative;
+    z-index: 40;
+    color:#000000;
+    text-decoration: none;
+}
+
+d.hideDisplay:hover{
+    z-index: 30;
+}
+
+d.hideDisplay span.showDisplayOnHover{
+    display:none;
+}
+
+d.hideDisplay:hover span.showDisplayOnHover{
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    line-height: 25px;
+    top: 5px;
+    left: 20px;
+    width: auto;
+    padding: 10px;
+    border: 1px solid #FF7587;
+    background-color:#8ADAFF;
+    color: #000000;
+    text-align: left;
+}
+
+span.showBodyOfDisplayOnHover{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 18px;
+}
+
+e.hideDisplay{
+    position: relative;
+    z-index: 40;
+    color:#000000;
+    text-decoration: none;
+}
+
+e.hideDisplay:hover{
+    z-index: 30;
+}
+
+e.hideDisplay span.showDisplayOnHover{
+    display:none;
+}
+
+e.hideDisplay:hover span.showDisplayOnHover{
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    line-height: 25px;
+    top: 5px;
+    left: 20px;
+    width: auto;
+    padding: 10px;
+    border: 1px solid #FF7587;
+    background-color:#8ADAFF;
+    color: #000000;
+    text-align: left;
+}
+
+span.showBodyOfDisplayOnHover{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 18px;
+}
+
+
+a{
+    overflow: scroll;
+}
+
+b{
+    overflow: scroll;
+}
+
+c{
+    overflow: scroll;
+}
+
+d{
+    overflow: scroll;
+}
+
+e{
+    overflow: scroll;
+}
 
 /*******************************
         MEDIA QUIERIES
 *******************************/
+
+@media screen (max-width: 1016){
+    
+}
