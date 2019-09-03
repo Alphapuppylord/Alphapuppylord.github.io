@@ -1,5 +1,5 @@
 body{
-    background-image: url("backgroundColor2.png");
+    background-image: url("background3.png");
 }
 
 li{
@@ -8,33 +8,33 @@ li{
 }
 
 nav{
-    background-color:#B36F6D;
+    background-color:#B0FFE3;
 }
 
 h1{
-    background-color: #6EA2CC;
+    background-color: #A0E8E5;
     font-size: 70px;
 }
 
 p{
     font-size: 40px;
-    background-color:#FFA6A3;
+    background-color:#B0FFE3;
 }
 
 h2{
     font-size: 55px;
-    background-color:#FFA6A3;
+    background-color:#B0FFE3;
 }
 
 img{
-    border:25px solid #FFA6A3;
+    border:25px solid #B0FFE3;
 }
 
 footer{
     position: absolute;
     bottom: 10px;
     text-align: center;
-    background-color:#6EA2CC;
+    background-color: #A0E8E5;
 }
 
 /*This next part is all about pop up boxes for images*/
@@ -64,8 +64,8 @@ a.hideDisplay:hover span.showDisplayOnHover{
     left: 20px;
     width: auto;
     padding: 10px;
-    border: 1px solid #FF7587;
-    background-color:#8ADAFF;
+    border: 1px solid #B0FFE3;
+    background-color:#A0E8E5;
     color: #000000;
     text-align: left;
 }
@@ -101,8 +101,8 @@ b.hideDisplay:hover span.showDisplayOnHover{
     left: 20px;
     width: auto;
     padding: 10px;
-    border: 1px solid #FF7587;
-    background-color:#8ADAFF;
+    border: 1px solid #B0FFE3;
+    background-color:#A0E8E5;
     color: #000000;
     text-align: left;
 }
@@ -138,8 +138,8 @@ c.hideDisplay:hover span.showDisplayOnHover{
     left: 20px;
     width: auto;
     padding: 10px;
-    border: 1px solid #FF7587;
-    background-color:#8ADAFF;
+    border: 1px solid #B0FFE3;
+    background-color:#A0E8E5;
     color: #000000;
     text-align: left;
 }
@@ -175,8 +175,8 @@ d.hideDisplay:hover span.showDisplayOnHover{
     left: 20px;
     width: auto;
     padding: 10px;
-    border: 1px solid #FF7587;
-    background-color:#8ADAFF;
+    border: 1px solid #B0FFE3;
+    background-color:#A0E8E5;
     color: #000000;
     text-align: left;
 }
@@ -212,8 +212,8 @@ e.hideDisplay:hover span.showDisplayOnHover{
     left: 20px;
     width: auto;
     padding: 10px;
-    border: 1px solid #FF7587;
-    background-color:#8ADAFF;
+    border: 1px solid #B0FFE3;
+    background-color:#A0E8E5;
     color: #000000;
     text-align: left;
 }
