@@ -2,14 +2,40 @@ body{
     background-image: url("background3.png");
 }
 
-li{
-    display: inline;
-    font-size: 24px;
-}
-
+/* This is for the Nav bar*/
 nav{
     background-color:#B0FFE3;
+    font-size: 130%
 }
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+    width: auto;
+}
+
+nav ul li{
+    display: inline;
+    font-size: 24px;
+    background-color:#B0FFE3;
+}
+
+nav ul li a{
+    padding: 0.8em;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{
+    background-color: aquamarine;
+
+}
+
+nav ul li a:active{
+    color: #A0E8E5;
+
+}
+/*Above is the Nav bar*/
 
 h1{
     background-color: #A0E8E5;
